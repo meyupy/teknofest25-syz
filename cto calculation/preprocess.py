@@ -61,13 +61,23 @@ class DataPreprocessor:
 
         print(f"{datetime.now().strftime('%H:%M')} RESIZED: {input_images_folder_path} -> {output_images_folder_path}")
 
+    def grayscale_images(self, input_images_folder_path=None, output_images_folder_path=None):
+        input_images_folder_path = input_images_folder_path or self.original_images_folder_path
+        output_images_folder_path = self.init_output_images_folder(output_images_folder_path)
+
+        for image_path in self.get_image_paths(input_images_folder_path):
+            with Image.open(image_path) as img:
+                grayscaled_img = img.convert("L")
+                grayscaled_img.save(os.path.join(output_images_folder_path, os.path.basename(image_path)))
+
+        print(f"{datetime.now().strftime('%H:%M')} GRAYSCALED: {input_images_folder_path} -> {output_images_folder_path}")
+
+#------
 
 original_images_folder_path = "./data/teknofest/images/original"
 default_output_images_folder_path = "./data/teknofest/images/processed"
-data_file_path = "./data/teknofest/CTO_dataset.csv"
 
 preprocessor = DataPreprocessor(original_images_folder_path, default_output_images_folder_path)
-preprocessor.crop_images_to_square(output_images_folder_path="./data/teknofest/images/cropped")
-preprocessor.resize_squared_images_to_square(512, "./data/teknofest/images/cropped", "./data/teknofest/images/cropped-resized")
 preprocessor.pad_images_to_square(output_images_folder_path="./data/teknofest/images/padded")
 preprocessor.resize_squared_images_to_square(512, "./data/teknofest/images/padded", "./data/teknofest/images/padded-resized")
+preprocessor.grayscale_images("./data/teknofest/images/padded-resized", "./data/teknofest/images/padded-resized-grayscaled")
