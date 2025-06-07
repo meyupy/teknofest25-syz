@@ -1,6 +1,7 @@
-import os, re
-import pandas as pd
+import os, shutil, re
 from PIL import Image, ImageOps
+import pandas as pd
+from datetime import datetime
 
 
 class DataPreprocessor:
@@ -16,6 +17,8 @@ class DataPreprocessor:
     
     def init_output_images_folder(self, output_images_folder_path):
         output_images_folder_path = output_images_folder_path or self.default_output_images_folder_path
+        if os.path.exists(output_images_folder_path):
+            shutil.rmtree(output_images_folder_path)
         os.makedirs(output_images_folder_path, exist_ok=True)
         return output_images_folder_path
 
@@ -32,6 +35,8 @@ class DataPreprocessor:
                 cropped_img = img.crop((left, top, right, bottom))
                 cropped_img.save(os.path.join(output_images_folder_path, os.path.basename(image_path)))
 
+        print(f"{datetime.now().strftime('%H:%M')} CROPPED: {input_images_folder_path} -> {output_images_folder_path}")
+
     def pad_images_to_square(self, input_images_folder_path=None, output_images_folder_path=None):
         input_images_folder_path = input_images_folder_path or self.original_images_folder_path
         output_images_folder_path = self.init_output_images_folder(output_images_folder_path)
@@ -42,14 +47,19 @@ class DataPreprocessor:
                 padded_img = ImageOps.pad(img, (max_dim, max_dim), color=(0), centering=(0.5,0.5))
                 padded_img.save(os.path.join(output_images_folder_path, os.path.basename(image_path)))
 
-    def resize_images(self, target_width, input_images_folder_path=None, output_images_folder_path=None):
+        print(f"{datetime.now().strftime('%H:%M')} PADDED: {input_images_folder_path} -> {output_images_folder_path}")
+
+    def resize_squared_images_to_square(self, target_width, input_images_folder_path=None, output_images_folder_path=None):
         input_images_folder_path = input_images_folder_path or self.original_images_folder_path
         output_images_folder_path = self.init_output_images_folder(output_images_folder_path)
 
         for image_path in self.get_image_paths(input_images_folder_path):
             with Image.open(image_path) as img:
-                resized_img = img.resize((target_width, target_width))
-                resized_img.save(os.path.join(output_images_folder_path, os.path.basename(image_path)))
+                if img.width == img.height:
+                    resized_img = img.resize((target_width, target_width))
+                    resized_img.save(os.path.join(output_images_folder_path, os.path.basename(image_path)))
+
+        print(f"{datetime.now().strftime('%H:%M')} RESIZED: {input_images_folder_path} -> {output_images_folder_path}")
 
 
 original_images_folder_path = "./data/teknofest/images/original"
@@ -58,6 +68,6 @@ data_file_path = "./data/teknofest/CTO_dataset.csv"
 
 preprocessor = DataPreprocessor(original_images_folder_path, default_output_images_folder_path)
 preprocessor.crop_images_to_square(output_images_folder_path="./data/teknofest/images/cropped")
-preprocessor.resize_images(512, "./data/teknofest/images/cropped", "./data/teknofest/images/cropped-resized")
+preprocessor.resize_squared_images_to_square(512, "./data/teknofest/images/cropped", "./data/teknofest/images/cropped-resized")
 preprocessor.pad_images_to_square(output_images_folder_path="./data/teknofest/images/padded")
-preprocessor.resize_images(512, "./data/teknofest/images/padded", "./data/teknofest/images/padded-resized")
+preprocessor.resize_squared_images_to_square(512, "./data/teknofest/images/padded", "./data/teknofest/images/padded-resized")
