@@ -1,0 +1,826 @@
+{
+    "kunye": {
+        "takim_adi": "Entelijansiya",
+        "takim_id": "681343",
+        "aciklama": "KTO Tespiti",
+        "versiyon": "v1.0"
+    },
+    "tahminler": [
+        {
+            "filename": "1 (19).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.57143,
+            "class": 1
+        },
+        {
+            "filename": "1 (62).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.37879,
+            "class": 0
+        },
+        {
+            "filename": "1 (24).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.4725,
+            "class": 0
+        },
+        {
+            "filename": "1 (33).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.59283,
+            "class": 1
+        },
+        {
+            "filename": "1 (68).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.47262,
+            "class": 0
+        },
+        {
+            "filename": "1 (67).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.41399,
+            "class": 0
+        },
+        {
+            "filename": "1 (86).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.65537,
+            "class": 1
+        },
+        {
+            "filename": "1 (74).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.55822,
+            "class": 1
+        },
+        {
+            "filename": "1 (93).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.52661,
+            "class": 1
+        },
+        {
+            "filename": "1 (29).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.507,
+            "class": 1
+        },
+        {
+            "filename": "1 (51).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.38872,
+            "class": 0
+        },
+        {
+            "filename": "1 (72).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.47146,
+            "class": 0
+        },
+        {
+            "filename": "1 (58).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.40233,
+            "class": 0
+        },
+        {
+            "filename": "1 (53).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.54273,
+            "class": 1
+        },
+        {
+            "filename": "1 (42).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.47194,
+            "class": 0
+        },
+        {
+            "filename": "1 (64).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.48525,
+            "class": 0
+        },
+        {
+            "filename": "1 (6).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.40107,
+            "class": 0
+        },
+        {
+            "filename": "1 (26).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.52785,
+            "class": 1
+        },
+        {
+            "filename": "1 (56).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.3354,
+            "class": 0
+        },
+        {
+            "filename": "1 (102).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.51414,
+            "class": 1
+        },
+        {
+            "filename": "1 (30).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.54348,
+            "class": 1
+        },
+        {
+            "filename": "1 (88).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.56065,
+            "class": 1
+        },
+        {
+            "filename": "1 (83).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.58882,
+            "class": 1
+        },
+        {
+            "filename": "1 (28).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.3796,
+            "class": 0
+        },
+        {
+            "filename": "1 (47).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.37284,
+            "class": 0
+        },
+        {
+            "filename": "1 (92).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.47917,
+            "class": 0
+        },
+        {
+            "filename": "1 (4).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.46916,
+            "class": 0
+        },
+        {
+            "filename": "1 (41).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.51385,
+            "class": 1
+        },
+        {
+            "filename": "1 (54).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.42195,
+            "class": 0
+        },
+        {
+            "filename": "1 (21).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.6129,
+            "class": 1
+        },
+        {
+            "filename": "1 (91).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.61616,
+            "class": 1
+        },
+        {
+            "filename": "1 (1).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.50543,
+            "class": 1
+        },
+        {
+            "filename": "1 (3).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.52315,
+            "class": 1
+        },
+        {
+            "filename": "1 (73).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.62148,
+            "class": 1
+        },
+        {
+            "filename": "1 (23).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.57471,
+            "class": 1
+        },
+        {
+            "filename": "1 (69).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.46518,
+            "class": 0
+        },
+        {
+            "filename": "1 (22).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.40278,
+            "class": 0
+        },
+        {
+            "filename": "1 (94).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.53906,
+            "class": 1
+        },
+        {
+            "filename": "1 (9).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.49206,
+            "class": 0
+        },
+        {
+            "filename": "1 (46).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.3822,
+            "class": 0
+        },
+        {
+            "filename": "1 (60).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.45974,
+            "class": 0
+        },
+        {
+            "filename": "1 (25).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.59511,
+            "class": 1
+        },
+        {
+            "filename": "1 (13).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.66,
+            "class": 1
+        },
+        {
+            "filename": "1 (55).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.44482,
+            "class": 0
+        },
+        {
+            "filename": "1 (82).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.53788,
+            "class": 1
+        },
+        {
+            "filename": "1 (2).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.49074,
+            "class": 0
+        },
+        {
+            "filename": "1 (7).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.51366,
+            "class": 1
+        },
+        {
+            "filename": "1 (100).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.60064,
+            "class": 1
+        },
+        {
+            "filename": "1 (31).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.48276,
+            "class": 0
+        },
+        {
+            "filename": "1 (37).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.36224,
+            "class": 0
+        },
+        {
+            "filename": "1 (32).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.47514,
+            "class": 0
+        },
+        {
+            "filename": "1 (81).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.52316,
+            "class": 1
+        },
+        {
+            "filename": "1 (12).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.38462,
+            "class": 0
+        },
+        {
+            "filename": "1 (14).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.63819,
+            "class": 1
+        },
+        {
+            "filename": "1 (34).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.47278,
+            "class": 0
+        },
+        {
+            "filename": "1 (17).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.58092,
+            "class": 1
+        },
+        {
+            "filename": "1 (44).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.48066,
+            "class": 0
+        },
+        {
+            "filename": "1 (10).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.51584,
+            "class": 1
+        },
+        {
+            "filename": "1 (99).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.53642,
+            "class": 1
+        },
+        {
+            "filename": "1 (89).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.57716,
+            "class": 1
+        },
+        {
+            "filename": "1 (96).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.42025,
+            "class": 0
+        },
+        {
+            "filename": "1 (8).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.39628,
+            "class": 0
+        },
+        {
+            "filename": "1 (20).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.58824,
+            "class": 1
+        },
+        {
+            "filename": "1 (103).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.3359,
+            "class": 0
+        },
+        {
+            "filename": "1 (75).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.52819,
+            "class": 1
+        },
+        {
+            "filename": "1 (65).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.49754,
+            "class": 0
+        },
+        {
+            "filename": "1 (61).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.42857,
+            "class": 0
+        },
+        {
+            "filename": "1 (71).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.60902,
+            "class": 1
+        },
+        {
+            "filename": "1 (27).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.63023,
+            "class": 1
+        },
+        {
+            "filename": "1 (49).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.54085,
+            "class": 1
+        },
+        {
+            "filename": "1 (36).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.51117,
+            "class": 1
+        },
+        {
+            "filename": "1 (59).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.52533,
+            "class": 1
+        },
+        {
+            "filename": "1 (76).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.52756,
+            "class": 1
+        },
+        {
+            "filename": "1 (57).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.43077,
+            "class": 0
+        },
+        {
+            "filename": "1 (70).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.59239,
+            "class": 1
+        },
+        {
+            "filename": "1 (97).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.5663,
+            "class": 1
+        },
+        {
+            "filename": "1 (78).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.59889,
+            "class": 1
+        },
+        {
+            "filename": "1 (90).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.5,
+            "class": 0
+        },
+        {
+            "filename": "1 (80).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.60434,
+            "class": 1
+        },
+        {
+            "filename": "1 (85).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.41979,
+            "class": 0
+        },
+        {
+            "filename": "1 (95).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.80392,
+            "class": 1
+        },
+        {
+            "filename": "1 (48).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.51613,
+            "class": 1
+        },
+        {
+            "filename": "1 (87).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.57506,
+            "class": 1
+        },
+        {
+            "filename": "1 (40).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.53731,
+            "class": 1
+        },
+        {
+            "filename": "1 (15).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.5601,
+            "class": 1
+        },
+        {
+            "filename": "1 (98).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.43077,
+            "class": 0
+        },
+        {
+            "filename": "1 (84).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.61584,
+            "class": 1
+        },
+        {
+            "filename": "1 (35).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.65141,
+            "class": 1
+        },
+        {
+            "filename": "1 (16).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.50923,
+            "class": 1
+        },
+        {
+            "filename": "1 (79).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.56369,
+            "class": 1
+        },
+        {
+            "filename": "1 (11).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.58398,
+            "class": 1
+        },
+        {
+            "filename": "1 (50).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.69697,
+            "class": 1
+        },
+        {
+            "filename": "1 (43).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.40979,
+            "class": 0
+        },
+        {
+            "filename": "1 (63).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.50459,
+            "class": 1
+        },
+        {
+            "filename": "1 (5).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.613,
+            "class": 1
+        },
+        {
+            "filename": "1 (39).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.58407,
+            "class": 1
+        },
+        {
+            "filename": "1 (45).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.40227,
+            "class": 0
+        },
+        {
+            "filename": "1 (38).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.57925,
+            "class": 1
+        },
+        {
+            "filename": "1 (77).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.52489,
+            "class": 1
+        },
+        {
+            "filename": "1 (18).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.61708,
+            "class": 1
+        },
+        {
+            "filename": "1 (66).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.47922,
+            "class": 0
+        },
+        {
+            "filename": "1 (101).jpg",
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "ratio": 0.53631,
+            "class": 1
+        }
+    ]
+}
